@@ -34,7 +34,7 @@
 克隆或下载本仓库后，在 PowerShell 中运行：
 
 ```powershell
-git clone https://github.com/<your-username>/antigravity-proxy-helper.git
+git clone https://github.com/emm1234567/antigravity-proxy-helper
 cd antigravity-proxy-helper
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1 -InstallAsPlugin
 ```
