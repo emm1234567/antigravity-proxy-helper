@@ -43,6 +43,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1 -Insta
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install.ps1 -InstallAsPlugin -EnableLogonGuard
+登录自检：
+在 install.ps1 提供可选参数 -EnableLogonGuard，注册一个用户级（无需管理员权限）的 Windows 计划任务，仅在用户登录系统时跑一次 repair-shortcuts.ps1 后立刻退出。
+这样哪怕刚更新完、还没开新对话，下次登录系统也会自动修好快捷方式。
 ```
 
 安装完成后，**完全退出并从桌面或开始菜单重新打开 Antigravity** 即可生效。
