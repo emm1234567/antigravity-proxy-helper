@@ -1,6 +1,6 @@
-# Antigravity Proxy Helper (Windows)
+# Antigravity Proxy Helper
 
-一个面向 **Windows 平台 Google Antigravity 桌面端** 的开源插件与静默启动工具：
+一个面向 **Windows 平台（暂时） Google Antigravity 桌面端** 的开源插件与静默启动工具：
 
 - **自动检测本地 HTTP / 混合代理端口**：兼容 Clash、Mihomo / Clash Verge、v2rayN、sing-box、NekoBox、Hiddify、FlClash、Karing、Shadowsocks、iKuuuVPN 等常见代理客户端，无需手动写死端口。
 - **仅对反重力进程树生效**：启动时仅向 `Antigravity.exe` 及其子进程（`language_server.exe`、终端/MCP 等）注入进程级代理环境变量与 Chromium `--proxy-server` 参数，**不修改 Windows 系统代理、不改全局环境变量、不影响其他任何软件**。
