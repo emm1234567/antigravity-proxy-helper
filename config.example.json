@@ -1,0 +1,12 @@
+{
+  "mode": "auto",
+  "host": "127.0.0.1",
+  "port": null,
+  "noProxy": "localhost,127.0.0.1,::1",
+  "bypassList": "localhost;127.0.0.1;[::1]",
+  "probeTimeoutMs": 250,
+  "autoRepairOnSessionStart": true,
+  "antigravityExePath": "",
+  "extraProcessPatterns": [],
+  "extraCandidatePorts": []
+}

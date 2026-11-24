@@ -1,0 +1,11 @@
+{
+  "antigravity-proxy-shortcut-guard": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "powershell -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/session-guard.ps1",
+        "timeout": 15
+      }
+    ]
+  }
+}

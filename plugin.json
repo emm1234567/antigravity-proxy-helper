@@ -1,0 +1,12 @@
+{
+  "name": "antigravity-proxy-helper",
+  "displayName": "Antigravity Proxy Helper",
+  "description": "Windows per-app proxy helper for Antigravity: auto-detects local HTTP/mixed proxy ports (Clash, Mihomo, v2rayN, sing-box, etc.) and auto-repairs shortcuts after updates without modifying system proxy.",
+  "version": "1.0.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check my local proxy port and Antigravity shortcut status",
+    "Install or repair Antigravity auto-proxy shortcuts",
+    "Switch Antigravity proxy helper to manual port or restore defaults"
+  ]
+}
